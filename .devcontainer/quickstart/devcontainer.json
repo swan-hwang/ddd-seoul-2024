@@ -1,0 +1,33 @@
+{
+  "name": "kkumtree-codespaces-scp-2024",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "hostRequirements": {
+    "cpus": 2
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/hugo:1": {
+      "version": "latest",
+      "extended": "true"
+    }
+  },
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "",
+  "postCreateCommand": "",
+  "postAttachCommand": {
+    "versionChecker": "hugo version"
+  },
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "README.md"
+      ]
+    }
+  },
+  "portsAttributes": {
+    "1313": {
+      "label": "TestInLocal",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "forwardPorts": [1313]
+}
