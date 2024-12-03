@@ -1,0 +1,27 @@
+{
+  "name": "ddd-seoul-2024",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "hostRequirements": {
+    "cpus": 2
+  },
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "",
+  "postCreateCommand": "",
+  "postAttachCommand": {
+    "versionChecker": "echo \"RAISE YOUR HAND\""
+  },
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "https://imgur.com/gallery/youve-activated-trap-card-936zTu7"
+      ]
+    }
+  },
+  "portsAttributes": {
+    "1313": {
+      "label": "TestInLocal",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "forwardPorts": [1313]
+}
