@@ -66,6 +66,40 @@ echo "theme = 'ananke'" >> hugo.toml
 hugo server  
 ```  
 
+## Post  
+
+```bash
+    1  hugo version
+    2  git remote
+    3  git checkout remote
+    4  git checkout remote/gh-pages
+    5  git status
+    6  ll
+    7  git remote origin/main
+    8  git checkout origin/main
+    9  git branch
+   10  git checkout playground
+   11  pwd
+   12  mkdir srcs && cd srcs
+   13  hugo new site .
+   14  pwd
+   15  git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+   16  rm -rf .git/modules/themes/ananke
+   17  git rm -f themes/ananke
+   18  git submodule add --depth 1 https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+   19  git submodule deinit -f themes/ananke
+   20  git submodule add --depth 1 https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke --force
+   21  tree -L 2
+   22  git submodule add --depth 1 https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+   23  git submodule add --depth 1 --force  https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+   24  pwd
+   25  echo "theme = 'ananke'" >> hugo.toml
+   26  hugo server
+   27  hugo new content content/posts/my-first-post.md
+   28  hugo server
+   29  history
+```
+
 ## Chores  
 
 ### Stackoverflow  
