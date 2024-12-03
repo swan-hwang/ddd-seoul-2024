@@ -7,7 +7,7 @@
   - <https://dddseoul.kr/speakers/minseongcho>  
 - 보조 진행자  
   - 한영빈 / Ubuntu 한국 로컬 커뮤니티(사용자 모임)  
-  - <[https://launchpad.net/~ybhan](https://discourse.ubuntu-kr.org/u/sukso96100/summary)>  
+  - <https://discourse.ubuntu-kr.org/u/sukso96100/summary>  
 
 ## 워크샵 목표  
 
