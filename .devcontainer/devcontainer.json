@@ -9,12 +9,5 @@
   "postCreateCommand": "",
   "postAttachCommand": {
     "versionChecker": "echo \"RAISE YOUR HAND\""
-  },
-  "customizations": {
-    "codespaces": {
-      "openFiles": [
-        ".devcontainer/undefined.gif"
-      ]
-    }
   }
 }
