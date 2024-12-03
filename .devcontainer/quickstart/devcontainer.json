@@ -1,5 +1,5 @@
 {
-  "name": "kkumtree-codespaces-scp-2024",
+  "name": "ddd-seoul-2024",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
   "hostRequirements": {
     "cpus": 2
