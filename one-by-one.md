@@ -34,7 +34,7 @@ pwd
 git submodule deinit -f themes/ananke
 rm -rf .git/modules/themes/ananke
 git rm -f themes/ananke
-git submodule add --depth 1 https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+git submodule add --depth 1 --force https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 ```
 
 ## Check folder tree
