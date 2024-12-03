@@ -9,19 +9,5 @@
   "postCreateCommand": "",
   "postAttachCommand": {
     "versionChecker": "echo \"RAISE YOUR HAND\""
-  },
-  "customizations": {
-    "codespaces": {
-      "openFiles": [
-        "https://imgur.com/gallery/youve-activated-trap-card-936zTu7"
-      ]
-    }
-  },
-  "portsAttributes": {
-    "1313": {
-      "label": "TestInLocal",
-      "onAutoForward": "openPreview"
-    }
-  },
-  "forwardPorts": [1313]
+  }
 }
