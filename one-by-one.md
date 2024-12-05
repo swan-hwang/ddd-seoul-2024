@@ -7,6 +7,12 @@
 hugo v0.139.3-2f6864387cd31b975914e8373d4bf38bddbd47bc+extended linux/amd64 BuildDate=2024-11-29T15:36:56Z VendorInfo=gohugoio
 ```
 
+## Install Linter
+
+- markdownlint
+
+![image](https://github.com/user-attachments/assets/a3147e27-e21d-47c9-a711-aafe50cbbc87)
+
 ## Add Remote  
 
 ```bash
@@ -81,10 +87,24 @@ tree -L 2
     └── ananke
 ```  
 
+## Edit `hugo.toml`  
+
 ```bash  
 pwd
 # Confirm that we are in `/workspaces/ddd-seoul-2024/srcs`
-echo "theme = 'ananke'" >> hugo.toml  
+echo "theme = 'ananke'" >> hugo.toml
+```
+
+```yaml
+baseURL = 'https://<USERNAME>.github.io/'  
+languageCode = 'ko-kr'  
+title = '<TYPE WHAT YOU WANT>'  
+theme = 'ananke'  
+```
+
+## HELLO WORLD  
+
+```
 hugo server
 # Stop with Ctrl+C
 hugo new content content/posts/my-first-post.md
