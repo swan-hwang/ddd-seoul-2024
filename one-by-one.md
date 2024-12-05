@@ -1,16 +1,36 @@
 # Tutorial 
 
+## Wait for proper hands-on  
+
+```bash
+/workspaces/ddd-seoul-2024 (playground) $ hugo version
+hugo v0.139.3-2f6864387cd31b975914e8373d4bf38bddbd47bc+extended linux/amd64 BuildDate=2024-11-29T15:36:56Z VendorInfo=gohugoio
+```
+
 ## Add Remote  
 
 ```bash
-git remote  
+git remote
+# origin  
 git checkout playground
+# Already on 'playground'
+# Your branch is up to date with 'origin/playground'.
 ```
 
 - SOURCE CONTROL > Remote > Add Remote  
-  - Login  
-  - <USERNAME>.github.io
-  - remote
+  - Add Remote from GitHub > Allow (The extension 'GitHub' wants to sign in using GitHub.)  
+- SOURCE CONTROL > Remote > Add Remote > Select <USERNAME>   
+  - <USERNAME>.github.io  
+  - Type `blog`    
+
+![image](https://github.com/user-attachments/assets/7bfb42c8-5376-4735-9a9a-3ae2fa3682be)
+
+
+```bash
+git remote
+# origin
+# 
+```
 
 ## Bootstrapper  
 
