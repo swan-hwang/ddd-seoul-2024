@@ -28,8 +28,8 @@ git checkout playground
 
 ```bash
 git remote
+# remote  
 # origin
-# 
 ```
 
 ## Bootstrapper  
