@@ -75,7 +75,6 @@ tree -L 2
 ├── hugo.toml
 ├── i18n
 ├── layouts
-├── one-by-one.md
 ├── README.md
 ├── static
 └── themes
