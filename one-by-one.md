@@ -4,6 +4,8 @@
 
 - Branch: playground  
 - Path: .devcontainer/quickstart  
+- L25: Edit <USERNAME>  
+  - eg. "kkumtree/kkumtree.github.io"  
 
 ## Wait for proper hands-on  
 
