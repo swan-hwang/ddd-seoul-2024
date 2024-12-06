@@ -1,5 +1,10 @@
 # Tutorial 
 
+## Edit devcontainer.json  
+
+- Branch: playground  
+- Path: .devcontainer/quickstart  
+
 ## Wait for proper hands-on  
 
 ```bash
@@ -101,6 +106,8 @@ languageCode = 'ko-kr'
 title = '<TYPE WHAT YOU WANT>'  
 theme = 'ananke'  
 ```
+
+## 
 
 ## HELLO WORLD  
 
