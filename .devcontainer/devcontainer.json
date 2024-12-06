@@ -1,5 +1,5 @@
 {
-  "name": "kkumtree-codespaces-scp-2024",
+  "name": "ddd-seoul-2024",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
   "hostRequirements": {
     "cpus": 2
@@ -19,15 +19,19 @@
   "customizations": {
     "codespaces": {
       "openFiles": [
-        "README.md"
+        "COPYCAT.md"
+      ],
+      "repositories": {
+        "<USERNAME>/<USERNAME>.github.io": {
+          "permissions": "write-all"
+        }
+      }
+    },
+    "vscode": {
+      "extensions": [
+        "DavidAnson.vscode-markdownlint",
+        "mhutchie.git-graph"
       ]
     }
-  },
-  "portsAttributes": {
-    "1313": {
-      "label": "TestInLocal",
-      "onAutoForward": "openPreview"
-    }
-  },
-  "forwardPorts": [1313]
+  }
 }
