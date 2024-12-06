@@ -186,7 +186,7 @@ git status
 
 - Publish to other repository that GitHub Pages
 
-```
+```bash
 pwd
 # Confirm that we are in `/workspaces/ddd-seoul-2024/srcs`
 git fetch blog
