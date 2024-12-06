@@ -26,7 +26,13 @@
           "permissions": "write-all"
         }
       }
-    }
+    },
+    "vscode": {
+			"extensions": [
+				"DavidAnson.vscode-markdownlint",
+				"mhutchie.git-graph"
+			]
+		}
   },
   "portsAttributes": {
     "1313": {
