@@ -20,7 +20,12 @@
     "codespaces": {
       "openFiles": [
         "README.md"
-      ]
+      ],
+      "repositories": {
+        "<USERNAME>/<USERNAME>.github.io": {
+          "permissions": "write-all"
+        }
+      }
     }
   },
   "portsAttributes": {
