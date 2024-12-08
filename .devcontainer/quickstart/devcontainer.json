@@ -22,7 +22,7 @@
         "README.md"
       ],
       "repositories": {
-        "<USERNAME>/<USERNAME>.github.io": {
+        "kkkumtree/kkkumtree.github.io": {
           "permissions": "write-all"
         }
       }
